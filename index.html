@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Simon Game</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+       <h1>Simon Game</h1>
+<div id="game">
+  <div class="primButtons">
+    <div id="lightgreen" onclick="PressedColor(1)"></div>
+    <div id="darkcyan" onclick="PressedColor(2)"></div>
+    <div id="orange" onclick="PressedColor(3)"></div>
+    <div id="violet" onclick="PressedColor(4)"></div>
+  </div>
+  <article>
+    <section><span id="title">Simon</span>
+      <div id="counter"><span id="round">--</span></div><span id="txtCount">COUNT</span>
+      <button id="start" onclick="StartGame()"></button><span id="txtStart">START</span>
+      <div id="onStrict"></div>
+      <button id="strict" onclick="StrictMode()"></button><span id="txtStrict">STRICT</span>
+      <div id="onOff"><span id="txtOff">OFF</span>
+        <div id="switch" onclick="OnOff()">
+          <div id="btn"></div>
+        </div><span id="txtOn">ON</span>
+      </div>
+    </section>
+  </article>
+</div>
+<footer class="text-center">
+     <p><strong>Coded with</strong> <i class="fa fa-heart icon" aria-hidden="true"></i> <em>By </em><a href="https://forum.freecodecamp.com/u/SurendraVidiyala/activity" target="_blank"><strong>Surendra Vidiyala</strong></a>.</p>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>
