@@ -1,0 +1,84 @@
+body {background-image: url("http://res.cloudinary.com/surendravidiyala/image/upload/v1498507308/george-hiles-114418_s3kgq6.jpg"); background-attachment:fixed ; 
+  background-position:center;
+  background-repeat:no-repeat;background-size: cover}
+
+h1 {text-align: center; font-size: 60px; margin-top: 0px; font-family: Sans; color: white; font-style: italic}
+
+#game {width: 480px; height: 490px; background-color: #1C1C1C; border-radius: 50%; margin: 0 auto; position: relative; padding: 15px;
+-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);}
+
+.primButtons div {top: 20px; padding: 95px 103px 95px 103px; position: absolute; width: 20px; height: 40px}
+
+#lightgreen {background-color: #38610B; border-radius: 100% 0 0 0; display: inline-block; right: 52%}
+#darkcyan {background-color: #0B3B39; border-radius: 0 100% 0 0; left: 52%}
+#orange {background-color: #DF7401; border-radius: 0 0 0 100%; right: 52%; top: 52%}
+#violet {background-color: #610B38; border-radius: 0 0 100% 0; left: 52%; top: 52%}
+
+article {position: absolute; width: 300px; height: 300px; background-color: #1C1C1C; border-radius: 50%; left: 20%; top: 22%}
+section {position: absolute; width: 270px; height: 270px; background-color: white; border-radius: 50%; left: 5%; top: 5%}
+
+#title {position: absolute; left: 24%; top: 8%; font-family: Times; font-weight: 900; font-size: 55px;
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);}
+
+#counter {position: absolute; width: 60px; height: 50px; background-color: #3B170B; border-style: solid; border-width: 3px; border-color: black; border-radius: 10px; top: 100px; left: 25px; font-family: Arial}
+#round {position: absolute; left: 12%; bottom: 0%; font-size: 45px; right: 5px; color: #DF7401; visibility: hidden}
+#txtCount {position: absolute; top: 160px; left: 30px; font-weight: bold; font-family: Arial}
+
+#start {position: absolute; top: 115px; left: 125px; border-radius: 50%; height: 25px; width: 25px; background-color: red; border-style: solid; border-width: 2px; border-color: #848484; 
+-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);}
+#txtStart {position: absolute; top: 155px; left: 110px; font-family: Arial; font-weight: bold}
+
+#onStrict {position: absolute; width: 15px; height: 15px; background-color: black; top: 94px; left: 
+198.5px; border-radius: 50%; border-style: solid; border-color: black; border-width: 1px}
+#strict {position: absolute; width: 25px; height: 25px; border-radius: 50%; border-style: solid; border-color: #848484; border-width: 3px; top: 115px; left: 195px;
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+background-color: yellow}
+#txtStrict {position: absolute; top: 155px; left: 180px; font-weight: bold; font-family: Arial}
+
+#onOff {position: absolute; top: 200px; left: 100px; font-family: Arial; font-weight: bold}
+#switch {position: absolute; width: 80px; height: 25px; background-color: gray; border-radius: 10px;
+-webkit-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 8px 2px rgba(0,0,0,0.75);}
+#txtOff {position: absolute; right: 6px; top: 2px}
+#txtOn {position: absolute; left: 86px; top: 2px}
+#btn {position: absolute; width: 20px; height: 20px; background-color: #00BFFF; left: 10px; top: 3px; border-radius: 5px;
+-webkit-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.75);}
+
+@media screen and (max-width: 767px) {
+  h1 {font-size: 45px}
+  #game {width: 280px; height: 280px; padding: 20px 15px 30px 15px}
+  .primButtons div {padding: 55px 53px 55px 63px; top: 10px;}
+  article {width: 150px; height: 150px; left: 26%; top: 26%}
+  section {width: 125px; height: 125px; left: 8%; top: 8%}
+  #title {font-size: 30px; left: 15%}
+  #counter {width: 30px; height: 20%; top: 50px; left: 13px}
+  #round {left: 1%; right: 10px; font-size: 20px;}
+  #txtCount {font-size: 8px; top: 82px; left: 18px}
+  #start {width: 5px; height: 15px; top: 58px; left: 57px}
+  #txtStart {font-size: 8px; top: 80px; left: 53px}
+  #onStrict {width: 5px; height: 5px; top: 48px; left: 95px}
+  #strict {width: 10px; height: 18px; top: 58px; left: 90px}
+  #txtStrict {font-size: 8px; top: 80px; left: 85px}
+  #onOff {width: 100px; top: 100px; left: 43px}
+  #switch {width: 40px; height: 15px}
+  #btn {width: 10px; height: 10px; left: 5px}
+  #txtOn {left: 41px; font-size: 8px}
+  #txtOff {left: -17px; font-size: 8px}
+}
+footer p {
+  position: absolute;
+  left: 42vw;
+  bottom: 0;
+  color:#ffffff;
+  text-align: center;
+}
+.icon{color:red;}
